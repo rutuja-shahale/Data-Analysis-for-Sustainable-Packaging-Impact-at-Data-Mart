@@ -1,4 +1,4 @@
-# Data-Mart
+# SQL Case Study : Data Mart Analysis
 
 ✽ Introduction:
 
@@ -25,6 +25,20 @@
 • transactions
 
 • sales 
+
+# Case Study Questions
+
+• Data Cleansing Steps:
+
+Execute a single query to cleanse the data and create a new table (clean_weekly_sales) in the data_mart schema, incorporating the following transformations:
+
+1. Add a week_number as the second column based on week_date.
+2. Add a month_number reflecting the calendar month for each week_date.
+3. Introduce a calendar_year column (2018, 2019, or 2020).
+4. Insert a new column, age_band, based on specific mappings from the original segment.
+5. Add a demographic column based on mappings from the first letter in the segment values.
+6. Ensure all null string values are replaced with "unknown" in the segment, age_band, and demographic columns.
+7. Generate an avg_transaction column, calculated as sales divided by transactions (rounded to 2 decimal places) for each record.
 
 ✽ Queries of the Projects:-
 
